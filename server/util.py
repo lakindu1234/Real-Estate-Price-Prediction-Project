@@ -1,5 +1,6 @@
-
-
+__locations = None
+__data_columns = None
+__model = None
 
 
 def get_location_names():
