@@ -2,9 +2,6 @@ import pickle
 import json
 import numpy as np
 
-import warnings
-warnings.filterwarnings("ignore", message="X does not have valid feature names")
-
 __locations = None
 __data_columns = None
 __model = None
