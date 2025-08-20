@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 
-@app.route('/hello')
-def hello():
-    return "hi"
+@app.route('/get_location_names')
+def get_location_names():
+    res
 
 
 
