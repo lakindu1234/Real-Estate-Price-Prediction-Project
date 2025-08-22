@@ -119,13 +119,14 @@ h2 {
     transform: translateY(-2px);
 }
 
+/* ✅ UPDATED LOCATION FIELD WITH BLUE THEME */
 .location {
     font-family: 'Roboto', sans-serif;
     outline: 0;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(102, 126, 234, 0.15); /* Light blue tone */
     backdrop-filter: blur(10px);
     width: 76%;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(102, 126, 234, 0.4); /* Blue border */
     margin: 0 0 15px;
     padding: 12px 15px;
     box-sizing: border-box;
@@ -137,13 +138,13 @@ h2 {
 }
 
 .location::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(193, 29, 29, 0.7);
 }
 
 .location:focus {
-    background: rgba(255, 255, 255, 0.25);
-    border-color: rgba(255, 107, 107, 0.6);
-    box-shadow: 0 0 15px rgba(255, 107, 107, 0.3);
+    background: rgba(0, 0, 0, 0.25); /* Slightly stronger blue on focus */
+    border-color: rgba(24, 47, 149, 0.8);
+    box-shadow: 0 0 15px rgba(102, 126, 234, 0.4);
     transform: translateY(-2px);
 }
 
